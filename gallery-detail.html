@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BeeMedia 254 | Portfolio Gallery</title>
+  <link rel="stylesheet" href="Style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body class="gallery-detail-page">
+  <header class="main-header">
+    <div class="header-container">
+      <nav class="navbar">
+        <a href="Index.html" class="nav-brand">
+          <img src="Screenshot_20260826_160725_WhatsAppBusiness.jpg" alt="BeeMedia Logo" class="nav-logo rounded-logo" />
+          <span class="brand-text-wrapper">
+            <img src="Screenshot_20260826_160725_WhatsAppBusiness.jpg" alt="" class="bg-watermark" />
+            <span class="brand-text">BeeMedia<span class="brand-highlight">254</span></span>
+          </span>
+        </a>
+
+        <nav class="nav-menu">
+          <a href="Index.html" class="nav-link">HOME</a>
+          <a href="Index.html#portfolio" class="nav-link active">PORTFOLIO</a>
+          <a href="Index.html#services" class="nav-link">SERVICES</a>
+          <a href="Index.html#about" class="nav-link">THE 254 EDGE</a>
+          <a href="Index.html#contact" class="cta-nav">BOOK NOW</a>
+        </nav>
+        <button class="mobile-toggle" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="gallery-detail-main">
+    <section class="gallery-detail-hero container">
+      <div class="eyebrow">Portfolio Collection</div>
+      <h1 id="detail-title">Wedding Stories</h1>
+      <p id="detail-description">Explore more moments from this category.</p>
+      <a href="Index.html#portfolio" class="back-link"><i class="fa-solid fa-arrow-left"></i> Back to Portfolio</a>
+    </section>
+
+    <section class="container">
+      <div id="gallery-detail-root" class="gallery-grid" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
